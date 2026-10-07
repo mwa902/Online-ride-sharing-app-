@@ -1,0 +1,68 @@
+============================================================
+   UOL RIDE SHARE — DEMO LOGIN ACCOUNTS
+============================================================
+
+All accounts are pre-verified and ready to use.
+Open the app at: http://localhost:5173
+
+------------------------------------------------------------
+ACCOUNT 1 — Ali Hassan (Driver)
+------------------------------------------------------------
+  Email    : ali.hassan@student.uol.edu.pk
+  Password : password123
+  Role     : Driver
+  Data     : Has 1 active ride (Johar Town → UOL, 3hrs)
+             Has 1 completed ride (Model Town → UOL)
+             Has ratings: 4.5 average (2 ratings received)
+             Has 1 unread notification
+
+------------------------------------------------------------
+ACCOUNT 2 — Sara Ahmed (Passenger)
+------------------------------------------------------------
+  Email    : sara.ahmed@student.uol.edu.pk
+  Password : password123
+  Role     : Passenger / Driver
+  Data     : Has booked a seat on Ali's active ride
+             Has 1 active ride posted (DHA Phase 5 → UOL)
+             Rated Ali 5 stars after completed ride
+
+------------------------------------------------------------
+ACCOUNT 3 — Usman Malik
+------------------------------------------------------------
+  Email    : usman.malik@student.uol.edu.pk
+  Password : password123
+  Role     : Driver / Passenger
+  Data     : Has 1 active ride (Gulberg → UOL, 2hrs)
+             Rated Ali 4 stars after completed ride
+
+------------------------------------------------------------
+ACCOUNT 4 — Fatima Khan  (Fresh Account)
+------------------------------------------------------------
+  Email    : fatima.khan@student.uol.edu.pk
+  Password : password123
+  Role     : No rides or bookings yet
+  Data     : Use this to test booking, posting rides, etc.
+
+============================================================
+  HOW TO REGISTER A NEW ACCOUNT (optional)
+============================================================
+
+  1. Go to http://localhost:5173/register
+  2. Use any email ending with @student.uol.edu.pk
+     Example: yourname@student.uol.edu.pk
+  3. After submitting, the verify_url will appear
+     on screen — click it to verify instantly
+  4. Then login with your new credentials
+
+============================================================
+  SERVERS
+============================================================
+
+  Frontend  →  http://localhost:5173
+  Backend   →  http://localhost:4000
+  Health    →  http://localhost:4000/api/health
+
+  NOTE: Data resets when backend server restarts.
+        All 4 accounts above are always available.
+
+============================================================
