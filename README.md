@@ -214,7 +214,7 @@ npm run preview
 
 ### Deploy Frontend to Vercel
 
-Import the repository into Vercel and keep the project root set to the repository root. The root `vercel.json` installs dependencies from `frontend/`, builds the Vite app, publishes `frontend/dist`, and routes client-side paths to the app entry point.
+Import the repository into Vercel and set the project root to `frontend/`. Its `vercel.json` installs dependencies with the frontend lockfile, builds the Vite app, publishes `dist`, and routes client-side paths to the app entry point.
 
 ## 📦 Environment Variables
 
